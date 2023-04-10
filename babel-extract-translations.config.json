@@ -1,0 +1,16 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "i18next-extract",
+      {
+        "outputPath": "src/i18n/translations.json",
+        "keyAsDefaultValue": "",
+        "nsSeparator": "~",
+        "keySeparator": "§ks",
+        "locales": ["en"],
+        "discardOldKeys": true
+      }
+    ]
+  ]
+}
