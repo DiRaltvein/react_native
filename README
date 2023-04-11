@@ -1,0 +1,8 @@
+### Physical device setup
+To configure ports
+- adb reverse tcp:8081 tcp:8081
+To see whyat devices are connected
+- adb devices
+### Linking
+To open deep link manually
+- npx uri-scheme open raltvein://app/Secondary --android
